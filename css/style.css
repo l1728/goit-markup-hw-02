@@ -81,6 +81,11 @@ h3 {
 }
 .hero-page-button {
   background: var(--IRIS, #4d5ae5);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
 }
 .hero-page-button:hover,
 .hero-page-button:focus {
@@ -89,13 +94,10 @@ h3 {
 }
 .hero-page-button-text {
   color: var(--WHITE, #fff);
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.64px;
 }
-
+.feature-page-title {
+  color: var(--NAVY-BLUE, #2e2f42);
+}
 .feature-page-text {
   font-size: 16px;
   line-height: 1.5;
@@ -103,6 +105,9 @@ h3 {
 }
 .our-team-page {
   background: var(--CLOUD, #f4f4fd);
+}
+.our-team-page-items {
+  background: var(--WHITE, #fff);
 }
 .our-team-page-title {
   color: var(--NAVY-BLUE, #2e2f42);
