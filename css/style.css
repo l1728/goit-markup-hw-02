@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   color: #434455;
   background-color: #fff;
@@ -23,19 +23,27 @@ h3 {
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
-.logo {
-  color: #2e2f42;
+
+.nav-page-logo-web,
+.footer-page-logo-web {
+  color: var(--IRIS, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.logo .logo-web {
-  color: #4d5ae5;
+.nav-page-logo-studio {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
-.menu {
+.menu-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -43,18 +51,21 @@ h3 {
   letter-spacing: 0.32px;
 }
 .menu .menu-link:hover,
-.menu .menu-link:hover {
+.menu .menu-link:focus {
   color: #404bbf;
 }
-.contacts .contacts-link {
+.adress {
+  font-style: normal;
+}
+.adress-contacts-link {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.contacts .contacts-link:hover,
-.contacts .contacts-link:focus {
+.adress-contacts-link:hover,
+.adress-contacts-link:focus {
   color: #404bbf;
 }
 .hero-page {
@@ -78,13 +89,13 @@ h3 {
 }
 .hero-page-button-text {
   color: var(--WHITE, #fff);
+  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
 }
-.feature-page {
-}
+
 .feature-page-text {
   font-size: 16px;
   line-height: 1.5;
@@ -107,8 +118,7 @@ h3 {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
 }
-.our-portfolio-page {
-}
+
 .our-portfolio-title {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
@@ -125,8 +135,14 @@ h3 {
 .footer-page {
   background: var(--NAVY-BLUE, #2e2f42);
 }
-.logo-studio {
+.footer-page-logo-studio {
   color: var(--CLOUD, #f4f4fd);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 .footer-page-text {
   color: var(--CLOUD, #f4f4fd);
