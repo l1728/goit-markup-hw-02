@@ -23,9 +23,8 @@ h3 {
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
-
-.nav-page-logo-web,
-.footer-page-logo-web {
+.nav-page-logo,
+.footer-page-logo {
   color: var(--IRIS, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
@@ -34,6 +33,7 @@ h3 {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
+
 .nav-page-logo-studio {
   color: var(--NAVY-BLUE, #2e2f42);
   font-family: Raleway;
