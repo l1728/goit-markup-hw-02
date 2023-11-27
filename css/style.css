@@ -93,6 +93,10 @@ h3 {
 .our-team-page {
   background: var(--CLOUD, #f4f4fd);
 }
+.our-team-page-title {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+}
 .our-team-page-text {
   text-align: center;
   font-size: 16px;
@@ -102,4 +106,19 @@ h3 {
 .our-team-page-item {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
+}
+.our-portfolio-page {
+}
+.our-portfolio-title {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+}
+.our-portfolio-item {
+  color: var(--NAVY-BLUE, #2e2f42);
+}
+
+.our-portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
