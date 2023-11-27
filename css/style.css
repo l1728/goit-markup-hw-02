@@ -57,3 +57,28 @@ h3 {
 .contacts .contacts-link:focus {
   color: #404bbf;
 }
+.hero-page {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+.hero-page-title {
+  color: var(--WHITE, #fff);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+.hero-page-button {
+  background: var(--IRIS, #4d5ae5);
+}
+.hero-page-button:hover,
+.hero-page-button:focus {
+  background: var(--OCEAN, #404bbf);
+}
+.hero-page-button-text {
+  color: var(--WHITE, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
