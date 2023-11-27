@@ -26,7 +26,7 @@ h3 {
 .nav-page-logo,
 .footer-page-logo {
   color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -81,7 +81,7 @@ h3 {
 }
 .hero-page-button {
   background: var(--IRIS, #4d5ae5);
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -93,7 +93,7 @@ h3 {
   cursor: pointer;
 }
 .hero-page-button-text {
-  color: var(--WHITE, #fff);
+  color: #ffffff;
 }
 .feature-page-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -107,7 +107,7 @@ h3 {
   background: var(--CLOUD, #f4f4fd);
 }
 .our-team-page-items {
-  background: var(--WHITE, #fff);
+  background: #ffffff;
 }
 .our-team-page-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -142,7 +142,7 @@ h3 {
 }
 .footer-page-logo-studio {
   color: var(--CLOUD, #f4f4fd);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
